@@ -1,0 +1,847 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    min-height: 100vh;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 1000;
+}
+.top_header{
+    background-color: #154175;
+    line-height: 50px;
+}
+.top_nav{
+    width: 80%;
+    margin: auto;
+}
+.topNavUl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 15.5px;
+}
+.topNavLinks{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    display: block;
+    transition: ease-in-out 0.3s;
+    font-weight: bold;
+}
+.topNavLinks:hover{
+    color: #B9C6D6;
+}
+
+/*Below navigation code */
+
+.belowHeader{
+    background-color: #FFFFFF;
+    height: 56px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+}
+.navigatioHolder{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.imgHolder img{
+    width: 54px;
+    transform: translateY(-5px);
+}
+.ulHolder ul{
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+}
+.ulHolder a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #00000099;
+}
+.ulHolder i{
+    color: #00000099;
+    margin-left: 5px;
+}
+.searchHolder i{
+    color: #00000099;
+    transform: rotate(90deg);
+}
+
+/* main page of univen code*/
+
+main{
+    margin-top: 130px;
+}
+.searchBar{
+    width: 80%;
+    height: 70px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.searchBar button{
+    background-color: #DDDDDD;
+    border-radius: 4px 0 0 4px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 36.67px;
+    padding: 10px;
+    border: none;
+}
+.searchBar input{
+    padding: 10px;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    width: 100%;
+    color: #697890;
+    text-align: right;
+    outline: none;
+}
+
+/* About Univen Section */
+
+.aboutUniven{
+    width: 100%;
+    min-height: 900px;
+}
+.aboutUnivenCont{
+    width: 80%;
+    margin: auto;
+}
+.aboutUnivenInfo{
+    display: flex;
+    gap: 30px;
+}
+.aboutUniveninfo1{
+    max-width: 677px;
+}
+.aboutUniveninfo1 h1{
+    font-size: 1.2rem;
+    color: #333333;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.aboutUniveninfo1 p{
+    color: #97998E;
+    margin-bottom: 20px;
+}
+.aboutUniveninfo1 b{
+    color: #314C7A;
+}
+.updateDrProf{
+    display: flex;
+    gap: 30px;
+}
+
+.aboutUnivenBtn1{
+    width: 100%;
+    background-color: #314C7A;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 10px;
+}
+.aboutUnivenBtn1 p{
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
+.aboutUnivenBtn1 a{
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 1.1rem;
+}
+.aboutUnivenBtn2{
+    width: 100%;
+    background-color: #314C7A;
+    text-align: center;
+    padding: 40px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.aboutUnivenBtn2 a{
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    font-weight: bold;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+.aboutUnivenBtn3{
+    width: 100%;
+    background-color: #314C7A;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 10px;
+}
+.aboutUnivenBtn3 a{
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 1.1rem;
+}
+.aboutUnivenProImg{
+    width: 202px;
+}
+.aboutUnivenProImg img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.aboutUnivenProImg span{
+    font-weight: 400;
+    color: #000000;
+}
+.aboutUnivenProImg p{
+    color: #AFAFAF;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.aboutUnivenProImg a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #314C7A;
+}
+
+
+.aboutUnivenDrImg{
+    width: 202px;
+}
+.aboutUnivenDrImg img{
+    width: 100%;
+}
+.aboutUnivenDrImg p{
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.studentPortal{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    gap: 30px;
+}
+.studentPortalBox{
+    width: 50%;
+    background-color: #314C7A;
+    padding: 40px;
+    margin-top: 20px;
+}
+.studentPortalBox a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border: 2px solid #FFFFFF;
+    font-weight: bold;
+}
+.studentPortalBox img{
+    width: 40%;
+    display: block;
+    margin-left: 30%;
+    margin-bottom: 40px;
+}
+
+/* News section code for univen*/
+
+.submitNews{
+    min-height: 550px;
+    background-color: #B2B2B2;
+}
+.submitNewsCont{
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    padding: 15px 0px;
+    margin: auto;
+}
+.submitNewsCont1{
+    width: 20%;
+}
+.submitNewsCont1 img{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.submitNewsbtn1{
+    background-color: #314C7A;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+}
+.submitNewsbtn1 p{
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.submitNewsbtn1 a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    padding: 20px;
+    border: 2px solid #FFFFFF;
+}
+.submitNewsLastCont{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1.3px solid #314C7A;
+    align-items: center;
+    margin-top: 5px;
+    min-height: 300px;
+    width: 80%;
+}
+
+.submitNewsMiddleCont{
+    width: 35%;
+}
+.submitNewsMiddleCont a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #444444;
+    font-weight: 400;
+}
+.submitNewsMiddleCont p{
+    font-size: 12px;
+    color: #6A6866;
+}
+
+.sideContent{
+    width: 45%;
+    margin-top: 40px;
+}
+.submitNewsLastHold{
+    max-width: 413px;
+    height: 145px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #6A6866;
+}
+.submitNewsLastContImg{
+    width: 400px;
+    height: 400px;
+}
+.submitNewsLastContImg img{
+    width: 100%;
+}
+.submitNewsLastHold a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 5px;
+    display: block;
+}
+.submitNewsLastHold p{
+    display: block;
+    font-size: 12px;
+    color: #6A6866;
+}
+
+
+/* academic calender*/
+
+.updates{
+    min-height: 660px;
+    margin: 20px 0;
+}
+.updatesContainer{
+    width: 80%;
+    margin: auto;
+}
+.article{
+    width: 300px;
+    margin: 0 10px;
+}
+.imgHolderArticle img{
+    width: 100%;  
+}
+.articleInfo{
+    padding: 18px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .07);
+}
+.articleInfo a{
+    text-decoration: none;
+    font-size: 21px;
+    color: #000000;
+    font-weight: 300;
+}
+.articleInfo p{
+    margin-top: 20px;
+    color: #C9C6C7;
+    font-weight: 100;
+}
+.articleInfo p span{
+    display: block;
+    padding-bottom: 5px;
+}
+
+.academicHolder{
+    min-height: 227px;
+    gap: 30px;
+    display: flex;
+}
+.boxHolder{
+    margin-top: 25px;
+    width: 263px;
+    align-items: center;
+    background-color: #314C7A;
+    padding: 30px;
+}
+.boxHolder a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding: 20px;
+    border-radius: 2px;
+    border: 3px solid #FFFFFF;
+    display: inline-block;
+}
+.boxHolder a:hover{
+    background-color: #5A7095;
+    border: none;
+}
+
+.boxHolder a:hover::after{
+    content: ">";
+    font-weight: 700;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+.academicHolder2{
+    padding: 30px;
+}
+.academicHolder2 a{
+    display: block;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.academicHolder2 span{
+    color: #6A6866;
+}
+
+/* Faculty section code*/
+
+.facultySection {
+    min-height: 350px;
+    margin-bottom: 15px;
+    background-color: #D6D6D6;
+}
+
+.facultyCont {
+    width: 80%;
+    padding-top: 50px;
+    margin: auto;
+    min-height: 450px; 
+}
+
+.facultyFlex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.facultyCont .contBox {
+    width: 240px;
+    text-align: center;
+}
+
+.contBox img {
+    width: 100%;
+    display: block;
+}
+
+.contBox a {
+    text-decoration: none;
+    color: #314c7a;
+    font-size: 20px;
+    display: block;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 3px;
+    transition: ease-in-out 0.3s; 
+    margin-top: 20px;
+    border: 2px solid #314c7a;
+}
+
+.contBox a:hover {
+    background-color: #CBCBCB;
+    border: 2px solid #314c7a; 
+}
+
+.contBox a:hover::after {
+    content: ">";
+    font-weight: 700;
+    margin-left: 15px;
+    font-size: 20px;
+    color: #314c7a;
+    display: inline-block;
+}
+
+
+
+/* Partnership and collaborations Sections for univen page*/
+
+.partnership{
+    min-height: 240px;
+}
+.partner{
+    width: 80%;
+    margin: auto;
+}
+.partner h2{
+    margin-bottom: 20px;
+}
+.partner img{
+    width: 225px;
+    height: 225px;
+}
+
+
+
+
+/* Univen footer code in css */
+
+footer{
+    background-color: #012169;
+    min-height: 440px;
+    margin-top: 50px;
+}
+.footerContainer{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 60px;
+}
+h4{
+    font-weight: 300;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.container p{
+    color: #FFFFFF;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+.container{
+    max-width: 214px;
+}
+.footerLinks a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    transition: ease-in-out 0.3s;
+    font-size: 11px;
+}
+.footerLinks a:hover{
+    color: #B9C6D6;
+}
+.footerLinks img{
+    width: 214px;
+    margin-top: 20px;
+}
+.footerContainer li{
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+.bottomFooter{
+    background-color: #011647;
+    height: 54px;
+    margin-top: 50px;
+}
+.containerTwo{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+.containerTwo p{
+    list-style-type: none;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 0.7rem;
+}
+.containerTwo a{
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: ease-in-out 0.3s;
+}
+.containerTwo a:hover{
+    color: #B9C6D6;
+}
+@media screen and (max-width: 768px){
+    header{
+        display: none;
+    }
+    .searchBar{
+        width: 80%;
+        margin: auto;
+    }
+    .searchBar input{
+        width: 100%;
+    }
+
+    /* about univen page*/
+
+    .aboutUnivenCont{
+        width: 80%;
+    }
+    .aboutUnivenInfo{
+        flex-direction: column;
+        gap: 20px
+    }
+    .aboutUniveninfo1{
+        width: 100%;
+    }
+    .aboutHolder{
+        width: 100%;
+    }
+    .aboutUnivenBtn1, .aboutUnivenBtn2, .aboutUnivenBtn3{
+        width: 100%;
+    }
+    .updateDrProf{
+        display: flex;
+        justify-content: space-between;
+    }
+    .aboutUnivenProImg{
+        width: 280px;
+    }
+    .aboutUnivenDrImg{
+        width: 280px;
+    }
+    .studentPortal {
+        flex-wrap: wrap; 
+        justify-content: center; 
+    }
+    .studentPortalBox {
+        width: 45%; 
+        margin-right: 15px;
+        margin-bottom: 20px; 
+    }
+
+    /*code for post and updates*/
+    .facultyCont{
+        padding-bottom: 10px;
+    }
+    .facultyFlex {
+        justify-content: center;
+        gap: 20px; 
+    }
+
+    .facultyCont .contBox {
+        width: 45%; 
+    }
+
+    /* News Section */
+
+    .submitNewsCont{
+        flex-direction: column;
+        align-items: center;
+    }
+    .submitNewsCont1{
+        width: 100%;
+    }
+    .submitNewsLastCont{
+        width: 100%;
+    }
+    .submitNewsMiddleCont{
+        width: 45%;
+        min-height: 400px;
+    }
+    .submitNewsMiddleCont img{
+        width: 100%;
+        min-height: 350px;
+    }
+    .sideContent{
+        width: 52%;
+    }
+    .submitNewsLastHold{
+        min-height: 167px;
+    }
+    /* section for post and updates */
+
+    .academicHolder{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .boxHolder{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .boxHolder a{
+        padding: 20px;
+    }
+    .academicHolder2{
+        padding: 5px;
+        width: 100%;
+    }
+
+    /* footer code*/
+
+    .footerContainer{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .container{
+        width: 45%;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+    
+    /*about univen page*/
+
+    .updateDrProf{
+        flex-direction: column;
+    }
+    .aboutUnivenProImg{
+        width: 340px;
+    }
+    .aboutUnivenDrImg{
+        width: 340px;
+    }
+    .studentPortalBox {
+        width: 100%;  
+    }
+
+    /* submit news code*/
+
+    .submitNewsLastCont{
+        flex-direction: column;
+    }
+    .submitNewsLastCont{
+        width: 100%;
+    }
+    .submitNewsMiddleCont{
+        width: 100%;
+    }
+    .sideContent{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .submitNewsLastHold{
+        height: 230px;
+        width: 100%;
+    }
+
+    /* faculty code*/
+
+    .facultyFlex {
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px; 
+    }
+
+    .facultyCont .contBox {
+        width: 100%; 
+    }
+
+    /*footer code*/
+    
+    .footerContainer{
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .container{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 376px) {
+    .aboutUnivenProImg{
+        width: 300px;
+    }
+    .aboutUnivenDrImg{
+        width: 300px;
+    }
+    .studentPortalBox {
+        width: 100%;  
+    }
+    .containerTwo{
+        padding: 15px;
+    }
+    .footerContainer{
+        padding-top: 30px;
+    }
+    .article{
+        margin: 0%;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .containerTwo{
+        padding: 7px;
+    }
+    .footerContainer{
+        padding-top: 30px;
+    }
+
+    .aboutUnivenProImg{
+        width: 259px;
+    }
+    .aboutUnivenDrImg{
+        width: 250px;
+    }
+    .studentPortalBox {
+        width: 100%;  
+    }
+
+    .article{
+        width: 100%;
+    }
+
+    .submitNewsLastCont{
+        width: 100%;
+        min-height: 400px;
+    }
+    .submitNewsMiddleCont{
+        width: 100%;
+        min-height: 400px;
+    }
+    .submitNewsMiddleCont img{
+        width: 100%;
+        min-height: 350px;
+    }
+}
+
